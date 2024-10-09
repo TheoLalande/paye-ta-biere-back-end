@@ -12,7 +12,7 @@ db.on;
 app.use(cors());
 app.use(express.json());
 app.get("/", (req: Request, res: Response) => {
-  res.send("Helloa mec");
+  res.send("Bienvenue sur l'API paye ta bière");
 });
 
 app.use("/user", usersRoute);
